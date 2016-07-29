@@ -1,0 +1,277 @@
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #8c8c8c;
+}
+a:visited{
+  color: #8c8c8c;
+}
+a:hover{
+  color: #5d5d5d;
+}
+a:active{
+  color:#2ba9e0;
+}
+body{
+  background: #e9f2fa;
+  font-family: helvetica, sans-serif;
+}
+#top-blue-bar{
+  width: auto;
+  height: 154px;
+  background: #2ba9e0;
+  margin: -10px -10px 0 -10px;
+  text-align: center;
+}
+#main-content{
+  width: 950px;
+  height: 1425px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  color: #8c8c8c;
+}
+h1{
+  text-align: center;
+  font-weight: lighter;
+  color: #2ba9e0;
+  font-size: 2.4em;
+  letter-spacing: 3px;
+}
+.name-of-product{
+  color: #2ba9e0;
+  text-align: center;
+  font-size: 3.66em;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 10px;
+}
+#product-name{
+  width: 950px;
+  height: 75px;
+  margin-bottom: 0px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    width: 920px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#navigation{
+  width: 870px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  margin-bottom: 1px;
+  font-size: 1.4em;
+}
+h4{
+  font-weight: lighter;
+  font-size: .8em;
+  color: #8c8c8c;
+}
+.food-box{
+	float: left;
+	width: 595px;
+	margin-top: -15px;
+}
+.product-box{
+	width: 950px;
+	height:460px;
+  padding-top: 20px;
+}
+.product-image{
+	width: 325px;
+	float: left;
+  margin-left: 30px;
+  z-index: -2;
+  margin-top: 8px;
+}
+.food-item{
+	width: 270px;
+	display: inline-block;
+	position: relative;
+  margin-bottom: 3px;
+}
+#shield-icon{
+  margin-top: -32px;
+}
+li{
+	list-style: none;
+	margin-left: 35px;
+  font-size: .8em;
+  font-weight: lighter;
+  color: #8c8c8c;
+}
+#features{
+  text-align: center;
+  width: 950px;
+  height: 132px;
+  box-shadow: 0px 0px 10px grey;
+  margin-top: 53px;
+  position: relative;
+}
+#feature-icon1{
+  position: absolute;
+  top: 11px;
+  left: 53px;
+}
+#feature-icon2{
+  position: absolute;
+  top: 68px;
+  left: 53px;
+}
+#feature-icon3{
+  position: absolute;
+  top: 9px;
+  right: 330px;
+}
+#feature-icon4{
+  position: absolute;
+  top: 68px;
+  right: 330px;
+}
+#feature-point1{
+  color: black;
+  font-size: 1.45em;
+  font-weight: lighter;
+  position: absolute;
+  top: 7px;
+  left: 105px;
+}
+#feature-point2{
+  color: black;
+  font-size: 1.45em;
+  font-weight: lighter;
+  position: absolute;
+  top: 60px;
+  left: 105px;
+}
+#feature-point3{
+  color: black;
+  font-size: 1.45em;
+  font-weight: lighter;
+  position: absolute;
+  top: 7px;
+  right: 49px;
+}
+#feature-point4{
+  color: black;
+  font-size: 1.45em;
+  font-weight: lighter;
+  position: absolute;
+  top: 60px;
+  right: 49px;
+}
+#more-info{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  height: 287px;
+}
+#video-box{
+  margin: 0 20px 0 50px;
+  float: left;
+}
+#about-us{
+  width: 370px;
+  height: 250px;
+  float: left;
+  margin: 0 0 0 35px;
+}
+#about-us-head{
+  color: #2ba9e0;
+  margin-top: 5px;
+  font-weight: lighter;
+  font-size: 1.9em;
+  text-align: center;
+}
+#about-us-text{
+  text-align: left;
+  margin-top: -10px;
+  color: #8c8c8c;
+  font-weight: lighter;
+  line-height: 1.4em;
+}
+#where-to-buy{
+  width: 890px;
+  height: 137px;
+  background: #e9f2fa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+#where-to-buy-header{
+  width: 890px;
+  height: 47px;
+  background: #2ba9e0;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+#sold-at{
+  color: white;
+  text-align: center;
+  margin-top: -39px;
+  font-style: italic;
+  font-size: 1.8em;
+}
+#deseret-logo{
+  margin: 10px 0 0 300px;
+}
+#copyright{
+  float: left;
+  margin: 15px 0 0 30px;
+  font-size: .8em;
+
+}
+#back-to-top{
+  float: right;
+  margin: 16px 30px 0 0;
+  font-size: 1.3em;
+}
+h3{
+	margin-top: 17px;
+	margin-bottom: -12px;
+	margin-left: 75px;
+  font-size: .9em;
+  color: #2ba9e0;
+}
+.product-descript{
+  display: block;
+  width: 210px;
+  height: 88px;
+  background: white;
+  float: left;
+  padding-top: -10px;
+  position: absolute;
+  top: 13px;
+  left: 71px;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 17px;
+  opacity: 0.8;
+}
+#item-1, #item-3, #item-5, #item-7{
+  z-index: 1;
+}
+#descript-1, #descript-3, #descript-5, #descript-7{
+	z-index: -1;
+}
+#item-2, #item-4, #item-6{
+  z-index: 0;
+}
+#descript-2, #descript-4, #descript-6{
+  z-index: -1;
+}
+#item-7{
+  margin-left: 122px;
+}
+#pasta-alfredo{
+  margin-left: 7px;
+}
+.two-line-name{
+  margin-top: 10px;
+}
