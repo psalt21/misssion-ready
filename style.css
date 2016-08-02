@@ -17,6 +17,14 @@ body{
   background: #e9f2fa;
   font-family: helvetica, sans-serif;
 }
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.center {
+  margin: 0 auto;
+}
 #top-blue-bar{
   width: auto;
   height: 154px;
