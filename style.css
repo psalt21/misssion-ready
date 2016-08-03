@@ -283,3 +283,97 @@ h3{
 .two-line-name{
   margin-top: 10px;
 }
+body {
+  margin: 0;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 979px) {
+  * {
+    box-sizing: border-box;
+  }
+  #item-7 {
+    margin:0;
+  }
+  body {
+    padding: 0 10px;
+  }
+  h1 {
+    margin: 5px;
+  }
+  hr.style-two {
+    margin: 0;
+  }
+  img {
+    margin: 0 auto;
+  }
+  #top-blue-bar {
+    background: transparent;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 -10px;
+  }
+  #main-content {
+    margin-top: 15%;
+  }
+  #navigation {
+    text-align: center;
+    margin-top: 40px;
+  }
+  #shield-icon {
+    display: block;
+  }
+  #main-content, hr.style-two, #navigation, .product-box, .food-box, .product-image,
+  #product-name, #features, #bullet-points {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  #features {
+    height: auto;
+  }
+  #product-name {
+    height: auto;
+    margin-top: 40px;
+  }
+  #product-name h2 {
+    line-height: 50px;
+    font-size: 50px;
+  }
+  .product-image, .food-box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-box {
+    height: auto;
+  }
+  .product-image, .food-box {
+    float: none;
+  }
+  .food-box {
+    padding: 0 10px;
+  }
+  .food-item img {
+    float: left;
+  }
+  .product-descript {
+    left: 58px;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 0.9em;
+  }
+  #main-content {
+    margin-top: 12%;
+  }
+}
+
+@media (max-width: 450px) {
+  #main-content {
+    margin-top: 5%;
+  }
+}
