@@ -172,19 +172,21 @@ li{
   padding-top: 15px;
 }
 #more-info{
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 30px;
   height: 287px;
 }
-#video-box{
-  margin: 0 20px 0 50px;
+#lifestyle{
+  margin: 41px 3px 0 36px;
   float: left;
+  width: 375px;
+  height: 268px;
 }
 #about-us{
-  width: 370px;
-  height: 250px;
+  width: 458px;
+  height: 300px;
   float: left;
-  margin: 0 0 0 35px;
+  margin: 0px 0 0 30px;
 }
 #about-us-head{
   color: #2ba9e0;
