@@ -230,6 +230,7 @@ li{
 #deseret-logo{
   margin: 20px auto;
   display: block;
+  border: none;
 }
 #copyright{
   float: left;
@@ -346,11 +347,16 @@ iframe {
     padding: 0;
     float: none;
   }
-  #video-box {
+  #lifestyle {
     float: none;
+    margin: 0;
   }
-  #video-box iframe {
-    max-width: 100%;
+  #lifestyle {
+    width: 100%;
+  }
+  #lifestyle img {
+    margin: 0 auto;
+    display: block;
   }
   #features, #main-content, #more-info {
     height: auto;
@@ -400,6 +406,7 @@ iframe {
     float: none;
     text-align: center;
     margin: 40px auto 0 auto;
+    height: auto;
   }
 }
 @media (max-width: 650px) {
@@ -433,5 +440,10 @@ iframe {
   }
   #copyright p {
     text-align: center;
+  }
+  #sold-at {
+    font-size: 1.2em;
+    line-height: 47px;
+    height: inherit;
   }
 }
