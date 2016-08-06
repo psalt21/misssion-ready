@@ -43,7 +43,7 @@ body{
 #top-blue-bar{
   width: auto;
   height: 154px;
-  background: #2ba9e0;
+  background: transparent;
   text-align: center;
 }
 #main-content{
