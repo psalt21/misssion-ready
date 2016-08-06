@@ -409,6 +409,43 @@ iframe {
     height: auto;
   }
 }
+@media (max-width: 583px) {
+  #about-us {
+    font-size: 1.4em;
+  }
+  #pasta-alfredo {
+    margin-left: auto;
+  }
+  .food-item {
+    margin-bottom: 25px;
+  }
+  .food-item img {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  .food-item .product-descript {
+    position: static;
+    margin: 0 auto;
+    float: none;
+    box-shadow: none;
+    text-align: center;
+    left: auto;
+  }
+  .food-item .product-descript h3 {
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+  .food-item .product-descript ul li {
+    margin-left: 0;
+    font-size: 1.2em;
+  }
+  .food-item .product-descript ul {
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 650px) {
   body {
     font-size: 0.9em;
