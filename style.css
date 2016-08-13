@@ -13,6 +13,21 @@ a:hover{
 a:active{
   color:#2ba9e0;
 }
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
 body{
   background: #e9f2fa;
   font-family: helvetica, sans-serif;
@@ -28,8 +43,7 @@ body{
 #top-blue-bar{
   width: auto;
   height: 154px;
-  background: #2ba9e0;
-  margin: -10px -10px 0 -10px;
+  background: transparent;
   text-align: center;
 }
 #main-content{
@@ -107,6 +121,12 @@ h4{
 }
 #shield-icon{
   margin-top: -32px;
+  width: 153px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: -32px auto 0 auto;
 }
 li{
 	list-style: none;
@@ -123,57 +143,34 @@ li{
   margin-top: 53px;
   position: relative;
 }
-#feature-icon1{
-  position: absolute;
-  top: 11px;
-  left: 53px;
+
+#features * {
+  box-sizing: border-box;
 }
-#feature-icon2{
-  position: absolute;
-  top: 68px;
-  left: 53px;
+
+#features .left, #features .right {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  padding-left: 50px;
 }
-#feature-icon3{
-  position: absolute;
-  top: 9px;
-  right: 330px;
+#features .right {
+  padding-left: 90px;
 }
-#feature-icon4{
-  position: absolute;
-  top: 68px;
-  right: 330px;
+#features .left img, #features .right img {
+  float: left;
+  vertical-align: middle;
+  margin-right: 10px;
 }
-#feature-point1{
+.feature-point {
   color: black;
   font-size: 1.45em;
   font-weight: lighter;
-  position: absolute;
-  top: 7px;
-  left: 105px;
-}
-#feature-point2{
-  color: black;
-  font-size: 1.45em;
-  font-weight: lighter;
-  position: absolute;
-  top: 60px;
-  left: 105px;
-}
-#feature-point3{
-  color: black;
-  font-size: 1.45em;
-  font-weight: lighter;
-  position: absolute;
-  top: 7px;
-  right: 49px;
-}
-#feature-point4{
-  color: black;
-  font-size: 1.45em;
-  font-weight: lighter;
-  position: absolute;
-  top: 60px;
-  right: 49px;
+  margin: 0;
+  height: 100%;
+  line-height: 100%;
+  padding-top: 15px;
 }
 #more-info{
   margin-top: 50px;
@@ -225,12 +222,15 @@ li{
 #sold-at{
   color: white;
   text-align: center;
-  margin-top: -39px;
   font-style: italic;
   font-size: 1.8em;
+  margin: 0;
+  line-height: 1.8em;
 }
 #deseret-logo{
-  margin: 10px 0 0 300px;
+  margin: 20px auto;
+  display: block;
+  border: none;
 }
 #copyright{
   float: left;
@@ -240,7 +240,7 @@ li{
 }
 #back-to-top{
   float: right;
-  margin: 16px 30px 0 0;
+  margin-right: 30px;
   font-size: 1.3em;
 }
 h3{
@@ -284,4 +284,203 @@ h3{
 }
 .two-line-name{
   margin-top: 10px;
+}
+body {
+  margin: 0;
+}
+#bullet-points, .left, .right {
+  height: 100%;
+}
+.container {
+  height: 50%;
+}
+iframe {
+  max-width: 450px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 979px) {
+  * {
+    box-sizing: border-box;
+  }
+  #item-7 {
+    margin:0;
+  }
+  body {
+    padding: 0 10px;
+  }
+  h1 {
+    margin: 5px;
+  }
+  hr.style-two {
+    margin: 0;
+  }
+  img {
+    margin: 0 auto;
+  }
+  #top-blue-bar {
+    background: transparent;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 -10px;
+  }
+  #main-content {
+    margin-top: 15%;
+  }
+  #navigation {
+    text-align: center;
+    margin-top: 40px;
+  }
+  #shield-icon {
+    display: block;
+  }
+  #main-content, hr.style-two, #navigation, .product-box, .food-box, .product-image,
+  #product-name, #features, #bullet-points, #where-to-buy, #where-to-buy-header, #Footer {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  #features .left, #features .right {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    float: none;
+  }
+  #lifestyle {
+    float: none;
+    margin: 0;
+  }
+  #lifestyle {
+    width: 100%;
+  }
+  #lifestyle img {
+    margin: 0 auto;
+    display: block;
+  }
+  #features, #main-content, #more-info {
+    height: auto;
+    box-shadow: none;
+  }
+  #features .left img, #features .right img {
+    float: none;
+  }
+  .container {
+    margin-bottom: 30px;
+  }
+  #product-name {
+    height: auto;
+    margin-top: 40px;
+  }
+  #product-name h2 {
+    line-height: 50px;
+    font-size: 50px;
+  }
+  .product-image, .food-box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-box {
+    height: auto;
+  }
+  .product-image, .food-box {
+    float: none;
+  }
+  .food-box {
+    padding: 0 10px;
+  }
+  .food-item img {
+    float: left;
+  }
+  .product-descript {
+    left: 58px;
+  }
+  #shield-icon {
+    top: -195px;
+  }
+  #features {
+    margin-top: 245px;
+  }
+  #about-us {
+    float: none;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    height: auto;
+  }
+}
+@media (max-width: 583px) {
+  #about-us {
+    font-size: 1.4em;
+  }
+  #pasta-alfredo {
+    margin-left: auto;
+  }
+  .food-item {
+    margin-bottom: 25px;
+  }
+  .food-item img {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  .food-item .product-descript {
+    position: static;
+    margin: 0 auto;
+    float: none;
+    box-shadow: none;
+    text-align: center;
+    left: auto;
+  }
+  .food-item .product-descript h3 {
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+  .food-item .product-descript ul li {
+    margin-left: 0;
+    font-size: 1.2em;
+  }
+  .food-item .product-descript ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 0.9em;
+  }
+  #main-content {
+    margin-top: 12%;
+  }
+}
+
+@media (max-width: 450px) {
+  #main-content {
+    margin-top: 5%;
+  }
+  #about-us {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #back-to-top {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #copyright {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0;
+  }
+  #copyright p {
+    text-align: center;
+  }
+  #sold-at {
+    font-size: 1.2em;
+    line-height: 47px;
+    height: inherit;
+  }
 }
