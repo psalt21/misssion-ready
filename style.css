@@ -59,7 +59,7 @@ h1{
   text-align: center;
   font-weight: lighter;
   color: #2ba9e0;
-  font-size: 2.4em;
+  font-size: 2.15em;
   letter-spacing: 3px;
 }
 .name-of-product{
@@ -126,7 +126,7 @@ h4{
   left: 0;
   right: 0;
   display: block;
-  margin: -32px auto 0 auto;
+  margin: -25px auto 0 auto;
 }
 li{
 	list-style: none;
@@ -138,7 +138,7 @@ li{
 #features{
   text-align: center;
   width: 950px;
-  height: 132px;
+  height: 147px;
   box-shadow: 0px 0px 10px grey;
   margin-top: 53px;
   position: relative;
@@ -153,10 +153,10 @@ li{
   display: inline-block;
   float: left;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 70px;
 }
 #features .right {
-  padding-left: 90px;
+  padding-left: 120px;
 }
 #features .left img, #features .right img {
   float: left;
@@ -165,7 +165,7 @@ li{
 }
 .feature-point {
   color: black;
-  font-size: 1.45em;
+  font-size: 1.25em;
   font-weight: lighter;
   margin: 0;
   height: 100%;
@@ -292,7 +292,7 @@ body {
   height: 100%;
 }
 .container {
-  height: 50%;
+  height: 33%;
 }
 iframe {
   max-width: 450px;
